@@ -1,5 +1,45 @@
 * {
-  color: black;
-  background-color: white
+  box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+p, h1, h2, ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: var(--bg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.top ul {
+  display: flex;
+  gap: 24px;
+  /*list-style: none;*/
+}
+
+a {
+  color: blue;
+  background-color: aqua;
+}
+
+footer {
+  color:#0c0c0c;
+}
